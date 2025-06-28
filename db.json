@@ -1,0 +1,34 @@
+{
+  "estoque": [
+    {
+      "id": "1",
+      "nomeProduto": "coca",
+      "quantidade": 45
+    },
+    {
+      "id": "2",
+      "nomeProduto": "agua",
+      "quantidade": 100
+    },
+    {
+      "id": "3",
+      "nomeProduto": "frito",
+      "quantidade": 20
+    },
+    {
+      "id": "4",
+      "nomeProduto": "assado",
+      "quantidade": 20
+    },
+    {
+      "id": "5",
+      "nomeProduto": "bolo",
+      "quantidade": 5
+    },
+    {
+      "id": "6",
+      "nomeProduto": "mousse",
+      "quantidade": 5
+    }
+  ]
+}
