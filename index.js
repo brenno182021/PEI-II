@@ -1,27 +1,7 @@
-var estoque = {
-  coca: 45,
-  agua: 100,
-  frito: 20,
-  assado: 20,
-  bolo: 5,
-  mousse: 5,
-}
+export const estoque = []
 
-function atualizarEstoqueTela() {
-  for (const [chave, valor] of Object.entries(estoque)) {
-    const el = document.getElementById("qtd-" + chave)
-    if (el) el.innerText = valor
-  }
-}
+export const urlApi = "http://localhost:3000/estoque"
 
-function entrada(produto) {
-  estoque[produto]++
-  atualizarEstoqueTela()
-  atualizarStatus && atualizarStatus()
-}
-
-function saida(produto) {
-  if (estoque[produto] > 0) estoque[produto]--
-  atualizarEstoqueTela()
-  atualizarStatus && atualizarStatus()
+export async function fetchTransactions() {
+  return await fetch(urlApi).then((res) => res.json())
 }

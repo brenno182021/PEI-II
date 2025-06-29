@@ -2,33 +2,45 @@
   "estoque": [
     {
       "id": "1",
-      "nomeProduto": "coca",
-      "quantidade": 45
+      "nomeProduto": "Coca-Cola Zero 2L",
+      "categoria": "Bebidas",
+      "quantidade": 50,
+      "validade": "20/08/2025"
     },
     {
       "id": "2",
-      "nomeProduto": "agua",
-      "quantidade": 100
+      "nomeProduto": "Água Mineral",
+      "categoria": "Bebidas",
+      "quantidade": 102,
+      "validade": "15/11/2025"
     },
     {
       "id": "3",
-      "nomeProduto": "frito",
-      "quantidade": 20
+      "nomeProduto": "Salgado Frito",
+      "categoria": "Salgado",
+      "quantidade": 21,
+      "validade": "01/07/2025"
     },
     {
       "id": "4",
-      "nomeProduto": "assado",
-      "quantidade": 20
+      "nomeProduto": "Salgado Assado",
+      "categoria": "Salgado",
+      "quantidade": 21,
+      "validade": "01/07/2025"
     },
     {
       "id": "5",
-      "nomeProduto": "bolo",
-      "quantidade": 5
+      "nomeProduto": "Fatia de Bolo",
+      "categoria": "Sobremessa",
+      "quantidade": 5,
+      "validade": "16/06/2025"
     },
     {
       "id": "6",
-      "nomeProduto": "mousse",
-      "quantidade": 5
+      "nomeProduto": "Mousse de Chocolate",
+      "categoria": "Sobremessa",
+      "quantidade": 5,
+      "validade": "16/06/2025"
     }
   ]
 }
